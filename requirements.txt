@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic-settings
+pydantic[email]
+PyJWT
+bcrypt
+python-multipart
+# your database driver, ex.: psycopg2-binary (PostgreSQL) or pymysql (MySQL)
