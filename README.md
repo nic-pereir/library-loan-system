@@ -87,11 +87,6 @@ library-loan-system/
 ├── core/
 │   └── security.py        # Password hashing and JWT creation/decoding
 │
-├── tests/
-│   ├── conftest.py        # Fixtures (temporary SQLite DB, fake clock, helpers)
-│   ├── test_api.py        # Auth, catalog and loan rules
-│   └── test_books_pagination.py  # Filters, joins, sorting and pagination
-│
 ├── alembic/               # Migration environment and versions
 ├── alembic.ini
 ├── .env.example           # Template for environment variables
